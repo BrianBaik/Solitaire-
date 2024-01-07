@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Board
+comment1.params=numStacks\ numDecks
+comment1.target=Board(int,\ int)
+comment1.text=\r\n\ \ Sets\ up\ the\ Board\ and\ fills\ the\ stacks\ and\ draw\ pile\ from\ a\ Deck\r\n\ \ consisting\ of\ numDecks\ Decks.\ \ Here\ are\ examples\:\r\n\ \ \r\n\ \ \#\ numDecks\ \ \ \ \ \#cards\ in\ overall\ Deck\r\n\ \ \ \ \ \ 1\ \ \ \ \ \ \ \ \ \ 13\ (all\ same\ suit)\r\n\ \ \ \ \ \ 2\ \ \ \ \ \ \ \ \ \ 26\ (all\ same\ suit)\r\n\ \ \ \ \ \ 3\ \ \ \ \ \ \ \ \ \ 39\ (all\ same\ suit)\r\n\ \ \ \ \ \ 4\ \ \ \ \ \ \ \ \ \ 52\ (all\ same\ suit)\r\n\ \ \ \ \ \ \r\n\ \ Once\ the\ overall\ Deck\ is\ built,\ it\ is\ shuffled\ and\ half\ the\ cards\r\n\ \ are\ placed\ as\ evenly\ as\ possible\ into\ the\ stacks.\ \ The\ other\ half\r\n\ \ of\ the\ cards\ remain\ in\ the\ draw\ pile.\r\n
+comment2.params=symbol\ src\ dest
+comment2.target=void\ makeMove(java.lang.String,\ int,\ int)
+comment2.text=\r\n\ \ Moves\ a\ run\ of\ cards\ from\ src\ to\ dest\ (if\ possible)\ and\ flips\ the\r\n\ \ next\ card\ if\ one\ is\ available.\r\n
+comment3.params=
+comment3.target=void\ drawCards()
+comment3.text=\ \r\n\ \ Moves\ one\ card\ onto\ each\ stack,\ or\ as\ many\ as\ are\ available\r\n
+comment4.params=
+comment4.target=boolean\ isEmpty()
+comment4.text=\r\n\ \ Returns\ true\ if\ all\ stacks\ and\ the\ draw\ pile\ are\ all\ empty\r\n
+comment5.params=sourceStack
+comment5.target=void\ clear(int)
+comment5.text=\r\n\ \ If\ there\ is\ a\ run\ of\ A\ through\ K\ starting\ at\ the\ end\ of\ sourceStack\r\n\ \ then\ the\ run\ is\ removed\ from\ the\ game\ or\ placed\ into\ a\ completed\r\n\ \ stacks\ area.\r\n\ \ \r\n\ \ If\ there\ is\ not\ a\ run\ of\ A\ through\ K\ starting\ at\ the\ end\ of\ sourceStack\r\n\ \ then\ an\ invalid\ move\ message\ is\ displayed\ and\ the\ Board\ is\ not\ changed.\r\n
+comment6.params=
+comment6.target=void\ printBoard()
+comment6.text=\r\n\ Prints\ the\ board\ to\ the\ terminal\ window\ by\ displaying\ the\ stacks,\ draw\r\n\ pile,\ and\ done\ stacks\ (if\ you\ chose\ to\ have\ them)\r\n
+numComments=7

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Deck
+comment1.params=
+comment1.target=Deck()
+comment10.params=f
+comment10.target=boolean\ isFaceUp(int)
+comment11.params=card
+comment11.target=void\ addCard(Card)
+comment2.params=str
+comment2.target=Deck(java.lang.String)
+comment3.params=
+comment3.target=void\ shuffle()
+comment4.params=i
+comment4.target=Card\ get(int)
+comment5.params=
+comment5.target=int\ getLength()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=c
+comment7.target=void\ remove(int)
+comment8.params=
+comment8.target=void\ removeLastInd()
+comment9.params=s
+comment9.target=java.lang.String\ getSymbol(int)
+numComments=12
